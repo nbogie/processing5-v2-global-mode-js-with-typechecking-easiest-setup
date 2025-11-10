@@ -3,5 +3,5 @@
         "checkJs": true,
         "lib": ["ESNext", "dom"]
     },
-    "include": ["./src/**/*.js"]
+    "include": ["./src/**/*.js", "./myTypes/global.d.ts"]
 }

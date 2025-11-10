@@ -1,4 +1,3 @@
-/// <reference types="p5/global" >
 function setup() {
     createCanvas(800, 600);
 }
