@@ -21,7 +21,7 @@ Direct links:
 -   [global.d.ts](https://cdn.jsdelivr.net/npm/p5@latest/types/global.d.ts)
 -   [p5.d.ts](https://cdn.jsdelivr.net/npm/p5@latest/types/p5.d.ts)
 
-Yes, this is a bit of a nuisance. If you have node.js there is a better project setup (TODO link). We're assuming here that you don't have node.js or don't want to use it.
+Yes, this is a bit of a nuisance. If you have node.js there is an [alternative node-based project starter project](https://github.com/nbogie/p5-v2-js-typechecked-global-mode-with-node-starter) that makes this easier for you. We're assuming here that you don't have node.js or don't want to use it.
 
 If you happen to know the command-line here are two options that make this quicker and less error-prone. (Either one will work - don't need both.)
 
