@@ -53,7 +53,7 @@ function createStars() {
         const star = {
             pos: randomScreenPos(),
             size: random([1, 1, 1, 2, 3, 8]),
-            colour: random(["white", "skyblue", "pink"]),
+            colour: color(random(["white", "skyblue", "pink"])),
             vel: p5.Vector.random2D().mult(random(1, 5)),
         };
         array.push(star);
@@ -104,10 +104,11 @@ function mousePressed() {
 
 function createAndAddStarAtMouse() {
     //exercise for the reader, try making a new createStar function that creates and returns a Star object - use it here and in createStars()
+    /** @type {Star} */
     const star = {
         pos: randomScreenPos(),
         size: random([1, 1, 1, 2, 3, 8]),
-        colour: random(["white", "skyblue", "pink"]),
+        colour: color(random(["white", "skyblue", "pink"])),
         vel: p5.Vector.random2D().mult(random(1, 5)),
     };
     stars.push(star);
