@@ -43,3 +43,11 @@ curl -O --output-dir ./myTypes/ https://cdn.jsdelivr.net/npm/p5@latest/types/p5.
 
 -   The p5 types have been downloaded locally and saved in myTypes/ and would need updated when the user wants to use a later version of p5.js.
     -   this is much simplified when you have an installation of node.
+
+
+
+
+## Other p5 project starters
+Are you looking or project starter for p5 v1 ? v2? TS? JS with type-checking? Global mode ? Instance Mode?
+
+Check out https://github.com/nbogie/p5-beyond-the-web-editor-neill/blob/main/docs/starter-projects.md
