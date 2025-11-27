@@ -1,8 +1,12 @@
 function setup() {
-    createCanvas(800, 600);
+    createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-    fill("pink");
-    circle(width / 2, height / 2, 100);
+    background(30, 50);
+    fill("darkorange");
+    circle(frameCount, height / 2, 100);
+    fill("dodgerblue");
+    circle(mouseX, mouseY, 30);
+    circle(mouseY, mouseX, 10);
 }
