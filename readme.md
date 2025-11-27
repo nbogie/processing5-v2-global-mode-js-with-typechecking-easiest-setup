@@ -1,6 +1,6 @@
 # A Type-Checked JavaScript p5.js version 2 project starter
 
-This is a work-in-progress starter simplest _type-checked_ javascript project supporting p5.js v2.
+This is a work-in-progress starter simplest _type-checked_ javascript project supporting p5.js v2. It is intended for use with vscode.
 
 It is intentionally a build-less setup intended for those who _do not have node.js installed_.
 
@@ -42,12 +42,10 @@ curl -O --output-dir ./myTypes/ https://cdn.jsdelivr.net/npm/p5@latest/types/p5.
 ### Current issues and limitations:
 
 -   The p5 types have been downloaded locally and saved in myTypes/ and would need updated when the user wants to use a later version of p5.js.
-    -   this is much simplified when you have an installation of node.
-
-
-
+    -   If you have node.js installed, this is much simplified - see [this alternative starter](https://github.com/nbogie/p5-v2-js-typechecked-global-mode-with-node-starter) in that case.
 
 ## Other p5 project starters
+
 Are you looking or project starter for p5 v1 ? v2? TS? JS with type-checking? Global mode ? Instance Mode?
 
 Check out https://github.com/nbogie/p5-beyond-the-web-editor-neill/blob/main/docs/starter-projects.md
